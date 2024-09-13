@@ -1,4 +1,5 @@
 ---
+draft: true
 title: "Apply Ratings Overlays without using Operations"
 date:
     created: 2024-09-12
