@@ -1,0 +1,86 @@
+site_name: Kometa Blog
+site_author: meisnate12
+site_description: The latest news from the Kometa team!
+site_url: https://blog.kometa.wiki
+repo_name: Kometa
+repo_url: https://github.com/Kometa-Team/Kometa
+
+theme:
+  name: material
+  logo: assets/icon.png
+  favicon: assets/favicon.png
+  font:
+    text: Open Sans
+    code: Fira Code
+  features:
+    - content.code.annotate
+    - content.tabs.link
+    - content.code.copy
+    - announce.dismiss
+    - toc.follow
+    - search.suggest
+    - search.highlight
+    - search.share
+  language: en
+  palette:
+    scheme: slate
+
+plugins:
+  - search:
+      lang: en
+  - blog:
+      enabled: true
+      post_date_format: long
+      post_dir: "{blog}/posts"
+      blog_toc: true
+      categories_toc: true
+      blog_dir: .
+      categories_allowed:
+        - Announcements
+        - Hotfix
+        - Showcase
+        - Overlays
+        - Collections
+        - Playlists
+        - Builders
+        - Defaults
+extra:
+  social:
+    - icon: fontawesome/solid/heart
+      class: md-social__link heart
+      link: 'https://github.com/sponsors/meisnate12'
+      name: Donate
+    - icon: fontawesome/brands/discord
+      class: md-social__link
+      link: 'https://kometa.wiki/en/latest/discord/'
+      name: Discord
+    - icon: fontawesome/brands/github
+      class: md-social__link
+      link: 'https://github.com/Kometa-Team/Kometa'
+      name: GitHub
+copyright: Copyright &copy; 2024 meisnate12
+markdown_extensions:
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+  - neoteroi.cards
+extra_css:
+  - stylesheets/extra.css
+  - stylesheets/custom.css
+
