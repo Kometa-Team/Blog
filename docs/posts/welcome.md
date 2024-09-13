@@ -1,9 +1,11 @@
 ---
 title: "Welcome to the Kometa Blog!"
 date:
-    created: 2024-09-10
+  created: 2024-09-10
 authors:
-    - sohjiro
+  - sohjiro
+categories:
+  - Announcements
 ---
 
 ![Welcome Mascot](../images/mascot-welcome.png){ align=right itemprop="image" }
