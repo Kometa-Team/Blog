@@ -15,3 +15,7 @@ authors:
     name: Bullmoose
     description: Moderator
     avatar: https://avatars.githubusercontent.com/u/12549033?v=4
+  Kometa Releases:
+    name: Kometa Releases
+    description: Automated Release Notifiar
+    avatar: https://github.com/Kometa-Team/Kometa/blob/nightly/.github/release.png?raw=true

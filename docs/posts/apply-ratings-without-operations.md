@@ -2,7 +2,7 @@
 draft: true
 title: "Apply Ratings Overlays without using Operations"
 date:
-    created: 2024-09-12
+    created: 2024-09-11
 authors:
     - yozora
     - chaz
@@ -10,6 +10,8 @@ categories:
     - Announcements
     - Defaults
     - Overlays
+tags:
+  - 2.0.2-build36
 ---
 
 ![Ratings GIF](https://mir-s3-cdn-cf.behance.net/project_modules/hd/8bfb74111957539.600b408feb79c.gif){ align=right itemprop="image" }

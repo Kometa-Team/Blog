@@ -28,6 +28,8 @@ theme:
 plugins:
   - search:
       lang: en
+  - include-markdown
+  - tags
   - blog:
       enabled: true
       post_date_format: long
@@ -44,6 +46,7 @@ plugins:
         - Playlists
         - Builders
         - Defaults
+        - Guides
 extra:
   social:
     - icon: fontawesome/solid/heart

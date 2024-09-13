@@ -1,7 +1,7 @@
 ---
 title: "Welcome to the Kometa Blog!"
 date:
-    created: 2024-09-11
+    created: 2024-09-10
 authors:
     - sohjiro
 ---
