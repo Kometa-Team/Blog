@@ -87,7 +87,7 @@ markdown_extensions:
   - neoteroi.cards
 extra_css:
   - stylesheets/extra.css
-  - stylesheets/custom.css
+
 nav:
   - Kometa Blog:
       - Latest News: index.md

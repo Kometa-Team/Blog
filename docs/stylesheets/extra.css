@@ -1,28 +1,12 @@
-:root, [data-md-color-scheme="default"] {
-    --md-primary-fg-color:        #00bc8c;
-    --md-primary-fg-color--light: #00bc8c;
-    --md-primary-fg-color--dark:  #00bc8c;
-    --md-primary-bg-color--light: #ffffffb3;
-    --pg-light-border: rgb(47, 47, 47);
-    --md-typeset-a-color: #00bc8c;
-    --md-accent-fg-color: #1281c0;
-    --md-code-hl-keyword-color: #7ee787;
-    --md-code-hl-string-color: #a5d6ff;
-    --md-code-hl-comment-color: #8b949e;
-}
 :root, [data-md-color-scheme="slate"] {
-    --md-primary-fg-color:        #00bc8c;
-    --md-primary-fg-color--light: #00bc8c;
-    --md-primary-fg-color--dark:  #00bc8c;
+
     --md-default-bg-color: #252525;
-    --md-footer-bg-color--dark: var(--md-default-bg-color);
-    --md-primary-bg-color--light: #ffffffb3;
-    --pg-light-border: rgb(47, 47, 47);
-    --md-typeset-a-color: #00bc8c;
-    --md-accent-fg-color: #1281c0;
-    --md-code-hl-keyword-color: #7ee787;
-    --md-code-hl-string-color: #a5d6ff;
-    --md-code-hl-comment-color: #8b949e;
+
+}
+
+.md-typeset a {
+    color: #4e9166;
+    word-break: break-word;
 }
 
 table tr td code {
