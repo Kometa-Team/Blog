@@ -29,7 +29,7 @@ theme:
 
 plugins:
   - rss:
-      match_path: docs/posts/.*
+      match_path: blog/posts/.*
       date_from_meta:
         as_creation: date
       categories:
