@@ -16,3 +16,4 @@ regex
 requests
 material-plausible-plugin
 mkdocs-open-in-new-tab
+mkdocs-rss-plugin

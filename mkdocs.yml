@@ -7,6 +7,7 @@ repo_url: https://github.com/Kometa-Team/Kometa
 
 theme:
   name: material
+  custom_dir: docs/overrides
   logo: assets/icon.png
   favicon: assets/favicon.png
   font:
@@ -27,6 +28,20 @@ theme:
     scheme: slate
 
 plugins:
+  - rss:
+      match_path: docs/posts/.*
+      date_from_meta:
+        as_creation: date
+      categories:
+        - Announcements
+        - Hotfix
+        - Showcase
+        - Overlays
+        - Collections
+        - Playlists
+        - Builders
+        - Defaults
+        - Guides
   - search:
       lang: en
   - include-markdown
